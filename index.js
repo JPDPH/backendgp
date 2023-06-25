@@ -30,7 +30,7 @@ app.post("/usuarios", async (req, resp) => {
   const mate = dataRequest.mate
   const letras = dataRequest.letras
 
-  await turista.create({
+  await usuarios.create({
     nombre: nombre,
     mate: mate,
     letras: letras
